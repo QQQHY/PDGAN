@@ -1,0 +1,17 @@
+{
+    "os": "Linux-4.15.0-151-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.4",
+    "heartbeatAt": "2021-09-17T06:29:26.170513",
+    "startedAt": "2021-09-17T06:29:25.095180",
+    "docker": null,
+    "gpu": "TITAN RTX",
+    "gpu_count": 2,
+    "cpu_count": 36,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "ubuntu-SDE-1907",
+    "username": "hongyu",
+    "executable": "/home/hongyu/anaconda3/envs/fedml/bin/python"
+}

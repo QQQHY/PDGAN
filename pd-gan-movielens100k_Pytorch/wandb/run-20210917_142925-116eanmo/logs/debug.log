@@ -1,0 +1,25 @@
+2021-09-17 14:29:25,097 INFO    MainThread:9409 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-17 14:29:25,097 WARNING MainThread:9409 [wandb_setup.py:_flush():69] could not save program above cwd: /home/hongyu/0Paper_With_Code/PD-GAN_release/pd-gan-movielens100k_Pytorch/main.py
+2021-09-17 14:29:25,097 INFO    MainThread:9409 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-17 14:29:25,097 INFO    MainThread:9409 [wandb_init.py:_log_setup():336] Logging user logs to /home/disk1/hongyu/hongyu/0Paper_With_Code/PD-GAN_release/pd-gan-movielens100k_Pytorch/wandb/run-20210917_142925-116eanmo/logs/debug.log
+2021-09-17 14:29:25,098 INFO    MainThread:9409 [wandb_init.py:_log_setup():337] Logging internal logs to /home/disk1/hongyu/hongyu/0Paper_With_Code/PD-GAN_release/pd-gan-movielens100k_Pytorch/wandb/run-20210917_142925-116eanmo/logs/debug-internal.log
+2021-09-17 14:29:25,098 INFO    MainThread:9409 [wandb_init.py:init():369] calling init triggers
+2021-09-17 14:29:25,098 INFO    MainThread:9409 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-09-17 14:29:25,098 INFO    MainThread:9409 [wandb_init.py:init():418] starting backend
+2021-09-17 14:29:25,098 INFO    MainThread:9409 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-09-17 14:29:25,112 INFO    MainThread:9409 [backend.py:ensure_launched():132] starting backend process...
+2021-09-17 14:29:25,117 INFO    MainThread:9409 [backend.py:ensure_launched():137] started backend process with pid: 9430
+2021-09-17 14:29:25,118 INFO    MainThread:9409 [wandb_init.py:init():423] backend started and connected
+2021-09-17 14:29:25,119 INFO    MainThread:9409 [wandb_init.py:init():465] updated telemetry
+2021-09-17 14:29:25,120 INFO    MainThread:9409 [wandb_init.py:init():484] communicating current version
+2021-09-17 14:29:25,796 INFO    MainThread:9409 [wandb_init.py:init():489] got version response upgrade_message: "wandb version 0.12.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-09-17 14:29:25,796 INFO    MainThread:9409 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-09-17 14:29:26,166 INFO    MainThread:9409 [wandb_init.py:init():522] starting run threads in backend
+2021-09-17 14:29:31,129 INFO    MainThread:9409 [wandb_run.py:_console_start():1565] atexit reg
+2021-09-17 14:29:31,129 INFO    MainThread:9409 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.REDIRECT
+2021-09-17 14:29:31,130 INFO    MainThread:9409 [wandb_run.py:_redirect():1417] Redirecting console.
+2021-09-17 14:29:31,132 INFO    MainThread:9409 [wandb_run.py:_redirect():1479] Redirects installed.
+2021-09-17 14:29:31,132 INFO    MainThread:9409 [wandb_init.py:init():546] run started, returning control to user process
+2021-09-17 14:29:31,132 INFO    MainThread:9409 [wandb_run.py:_config_callback():787] config_cb None None {'epochs': 300, 'epochs_g': 1, 'epochs_d': 1, 'batch_size': 16, 'opt': 'SGD', 'eta_G': 0.01, 'eta_D': 0.01, 'emb_dim': 30, 'k': 10, 'theta': 0.9, 'INIT_DELTA': 0.05, 'seed': 1, 'device': '0', 'device_ids': [0], 'dataset': 'Movielens-100K', 'wandb_flag': True}

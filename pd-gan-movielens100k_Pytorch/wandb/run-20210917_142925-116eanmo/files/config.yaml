@@ -1,0 +1,66 @@
+wandb_version: 1
+
+INIT_DELTA:
+  desc: null
+  value: 0.05
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.30
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.4
+    t:
+      1:
+      - 1
+      4: 3.7.4
+      5: 0.10.30
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 16
+dataset:
+  desc: null
+  value: Movielens-100K
+device:
+  desc: null
+  value: '0'
+device_ids:
+  desc: null
+  value:
+  - 0
+emb_dim:
+  desc: null
+  value: 30
+epochs:
+  desc: null
+  value: 300
+epochs_d:
+  desc: null
+  value: 1
+epochs_g:
+  desc: null
+  value: 1
+eta_D:
+  desc: null
+  value: 0.01
+eta_G:
+  desc: null
+  value: 0.01
+k:
+  desc: null
+  value: 10
+opt:
+  desc: null
+  value: SGD
+seed:
+  desc: null
+  value: 1
+theta:
+  desc: null
+  value: 0.9
+wandb_flag:
+  desc: null
+  value: true
