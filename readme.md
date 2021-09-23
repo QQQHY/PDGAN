@@ -10,6 +10,7 @@ main file: main.py
 ## Generator
 
 quality-evaluating file: models.py Generator
+
 dpp model: dpp_model_pairwise.py
 
 ## Discriminator
